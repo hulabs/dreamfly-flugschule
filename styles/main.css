@@ -24,7 +24,7 @@ html {
     margin-bottom: 35px;
 
     animation: logo-fly-in 5s linear 1 0s both,
-               logo-turbulences 2s linear 5.5s infinite none;
+               logo-turbulences 15s linear 5.5s infinite none;
 }
 
 @keyframes logo-fly-in {
@@ -43,13 +43,13 @@ html {
         transform: translate(0, 0);
     }
     25% {
-        transform: translate(0, -10px);
+        transform: translate(0, -7px);
     }
     50% {
-        transform: translate(0, 10px);
+        transform: translate(0, 7px);
     }
     75% {
-        transform: translate(0, 5px);
+        transform: translate(0, 3px);
     }
 
 }
